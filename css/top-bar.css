@@ -12,8 +12,8 @@
 .topb{
     font-size:12px;
     border:none;
-    width:130px;
-    height:60px;
+    width:1000px;
+    height:65px;
     top:0px;
     left:0px;
     background-color:#00709C;
@@ -58,5 +58,6 @@
     width: 20%;
  }
  .icon{
- width:50px;
+    width:50px;
+    align:center;
 }
