@@ -23,7 +23,8 @@
 }
 .welcome{
    color:blue; 
-   margin:0% 25% 0% 25%;
+   margin:10% 25% 0% 25%;
    width:50%;
    text-align:center; 
+   background-image:url('../images/logo.png');
 }
