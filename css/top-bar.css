@@ -58,5 +58,6 @@
     width: 20%;
  }
  .icon{
- width:50px;
+    width:50px;
+    algin:middle;
 }
