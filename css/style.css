@@ -16,15 +16,16 @@
     width:25%;
     padding:3px;
     margin:3px;
-    text-align:center;
+    margin-left:103px;
+    text-align: center;
     background-color:lightblue;
     color:white;
     border-radius:30px;
 }
 .welcome{
-   color:blue; 
+   color:rgb(0, 0, 255); 
    margin:10% 25% 0% 25%;
    width:50%;
    text-align:center; 
-   background-image:url('../images/logo.png');
+   background-image: url("../iages/logo.png");
 }
