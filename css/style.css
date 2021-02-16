@@ -24,8 +24,7 @@
 }
 .welcome{
    color:rgb(0, 0, 255); 
-   margin:10% 25% 0% 25%;
+   margin:0% 25% 0% 25%;
    width:50%;
    text-align:center; 
-   background-image: url("../iages/logo.png");
 }
