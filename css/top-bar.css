@@ -12,8 +12,8 @@
 .topb{
     font-size:12px;
     border:none;
-    width:1000px;
-    height:65px;
+    width:100px;
+    height:100px;
     top:0px;
     left:0px;
     background-color:#00709C;
@@ -28,11 +28,12 @@
 }
 
 .topBar{
-    width:100%;
+    height:100%;
     position:fixed;
     top:0px;
     left:0px;
     background:#00709C;
+    float:left;
 }
 
 .advice{
