@@ -63,3 +63,8 @@
     width:50px;
     align:center;
 }
+
+.bar{
+    float:right;
+    cursor: pointer;
+}
