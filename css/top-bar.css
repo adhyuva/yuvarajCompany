@@ -16,7 +16,7 @@
     height:100px;
     top:0px;
     left:0px;
-    background-color:#00709C;
+    background-color:inherit;
     color:white;
     padding:0px 10px 0px 10px;
     text-transform: uppercase;
@@ -32,8 +32,9 @@
     position:fixed;
     top:0px;
     left:0px;
-    background:#00709C;
+    background:#4d4d4d;
     float:left;
+    display:none;
 }
 
 .advice{
