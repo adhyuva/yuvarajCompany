@@ -49,18 +49,24 @@
         </button>
         <br/>
         <button class = "topb">
-            <img src = "../images/profile.png" class = "icon">
+            <span id = "profilePicture"><img src = "../images/profile-boy.png" class = "icon" /></span>
             <p>Profile</p>
         </button>
     </div>
-    <main>
-        <article class="hm">
-            <article>
+        <article class="profilePicture">
+            <h2>Change Your Profile Picture!</h1>
+            <p>Click the image you want to change your profile picture</p>
+            <div class="chip">
+               <span class = "profile" onclick = "changeProPicture('boy');"> <img src="../images/profile-boy.png" alt="Person" width="96" height="96"> </span>
+               <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
+            </div>
+        </article>
+    <script src = "../js/changeProPicture.js"></script>
+            <article class = "hm">
                 <h2>Week 1's Wonder:</h1>
                 <h3>What is binary</h2>
                 <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.1 and 0. Computers use binary most the time. Binary is what your computers use. They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
                  A MB is 1024 KB and so on and so forth. Below is how you calculate binary to our number system.  </p>
-            </article>
             <figure>
                 <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="100%">
                 <figcaption>Total:13</figcaption>
@@ -87,6 +93,7 @@
                 </form>  
             </div>
         </article>
+    </article>
     </main>
     <script src="../js/form.js"></script>
     h
