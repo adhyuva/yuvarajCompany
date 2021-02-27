@@ -55,14 +55,38 @@
     </div>
     <main>
         <article class="hm">
-            <h2>Week 1's Wonder:</h1>
-            <h3>What is binary</h2>
-            <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.
-                1 and 0. Computers use binary most the time. Binary is what your computers use
-            They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
-        A MB is 1024 KB and so on and so forth. Below is how you calculate binary to our number system.  </p>
-    </article>
-            <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="50%">  
+            <article>
+                <h2>Week 1's Wonder:</h1>
+                <h3>What is binary</h2>
+                <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.1 and 0. Computers use binary most the time. Binary is what your computers use. They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
+                 A MB is 1024 KB and so on and so forth. Below is how you calculate binary to our number system.  </p>
+            </article>
+            <figure>
+                <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="100%">
+                <figcaption>Total:13</figcaption>
+            </figure>
+            <h2>Quiz!</h2>
+            <form>
+                <p>How much is a MB?</p>
+                <br/><br/>
+                <input type="number" id="bytes" /> KB
+                <p id="one"></p>
+                <br/> <br/>
+                <p>A GB is the next level from a MB. How many MB's make a GB?</p>
+                <br/> <br/>
+                <input type="number" id="bytes-2" /> GB
+                <p id="two"></p>
+                <br/> <br/>
+                <p>What is 2<sup>2</sup> &times; 1? Write it in base ten.</p>
+                <br/> <br/>
+                <input type="number" id="ten">
+                <p id="three"> </p>
+                <br/>
+                <input type="button" value="submit" onclick="ifLoop()">
+
+            </form>  
+        </article>
     </main>
+    <script src="../js/form.js"></script>
 </body>
 </html>
