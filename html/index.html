@@ -54,13 +54,37 @@
         </button>
     </div>
     <main>
-        <article class="hm">
+        <article class = "hm">
             <h2>Week 1's Wonder:</h1>
             <h3>What is binary</h2>
-            <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.
-                1 and 0. Computers use binary most the time. Binary is what your  </p>
-            <img src="../images/binary.png" alt="A picture explaining binary" width="50%"> 
-        </article>
+            <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.1 and 0. Computers use binary most the time. Binary is what your computers use. They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
+             A MB is 1024 KB and so on and so forth. Below is how you calculate binary to our number system.  </p>
+        <figure>
+            <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="100%">
+            <figcaption>Total:13</figcaption>
+        </figure>
+        <div class="test">
+            <h3>Quiz!</h3>
+            <form>
+                <p>How much is a MB?</p>
+                <br/>
+                <input type="number" id="bytes" /> KB
+                <p id="one"></p>
+                <br/>
+                <p>A GB is the next level from a MB. How many MB's make a GB?</p>
+                <br/>
+                <input type="number" id="bytes-2" /> GB
+                <p id="two"></p>
+                <br/> 
+                <p>What is 2<sup>2</sup> &times; 1? Write it in base ten.</p>
+                <br/>
+                <input type="number" id="ten">
+                <p id="three"> </p>
+                <br/>
+                <input type="button" value="submit" onclick="ifLoop()">
+            </form>  
+        </div>
+    </article>
         <article class="profilePicture">
             <h2>Change Your Profile Picture!</h1>
             <p>Click the image you want to change your profile picture</p>
@@ -69,7 +93,18 @@
                <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
             </div>
         </article>
+
+        <article class="theme">
+            <h2>Change The Theme Of The Web!</h1>
+            <p>Click each circle to change the theme of the webpage</p>
+            <div class="chip">
+               <span class = "dot black-dot" onclick = "changeTheme('dark');">x</span>
+               <span class = "dot white-dot" onclick = "changeTheme('light');">x</span>
+            </div>
+        </article>
     </main>
     <script src = "../js/changeProPicture.js"></script>
+    <script src = "../js/form.js"></script>
+    <script src = "../js/changeTheme.js"></script>
 </body>
 </html>
