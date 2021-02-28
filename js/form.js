@@ -35,9 +35,9 @@ function ifLoop () {
     if (score == 4){
         output.innerHTML += " <br/> Awesome! You know your facts! ";
       }else if (score >= 2){
-        output.innerHTML += " <br/> Your familiar with binary";
+        output.innerHTML += " <br/> Your familiar with binary.";
       }else{
-        output.innerHTML += " <br/> You do not know binary.  ";
+        output.innerHTML += " <br/> You do not know binary. ";
       }
 
 }
