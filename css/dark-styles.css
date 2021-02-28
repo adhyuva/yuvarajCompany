@@ -1,3 +1,6 @@
+body{
+    background-color: black;
+}
 
 .middle{
     border:3px solid black;
@@ -72,15 +75,6 @@ h2,h3{
     z-index:1;
 }
 
-<<<<<<< HEAD
-.black-dot{
-    background-color: black;
-}
-
-.black-dot{
-    background-color: white;
-}
-=======
 .dot{
     width:50px;
     height:50px;
@@ -112,4 +106,3 @@ h2,h3{
     border-radius:30px;
     z-index:1;
 }
->>>>>>> arjun
