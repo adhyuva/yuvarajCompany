@@ -74,10 +74,10 @@ h2,h3{
 .profilePicture{
     border:3px solid black;
     float:right;
-    width:30%;
+    width:40%;
     height:200px;
     padding:1px;
-    margin:3% 5% 5% 5%;
+    margin:3% 30% 5% 5%;
     text-align:center;
     background-color:lightblue;
     color:black;
@@ -106,10 +106,10 @@ h2,h3{
 .theme{
     border:3px solid black;
     float:right;
-    width:30%;
+    width:40%;
     height:200px;
     padding:1px;
-    margin:20% 5% 5% 25%;
+    margin:3% 30% 5% 5%;
     text-align:center;
     background-color:lightblue;
     color:black;
