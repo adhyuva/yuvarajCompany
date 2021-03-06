@@ -10,101 +10,115 @@
 
 </head>
 <body>
-</div>
-    <header>
-        <img class = "welcome"src="../images/welcome.png">
-    </header> 
-    <aside class="middle">
-    <h2>Credits.</h2>
-    <p>This webpage is made by Adhithya and Arjun Yuvaraj.</p>
-    <p>Thanks to</br> fontawesome.com for the pics on the siebar!</p>
-    </aside>
+    <div id="loader">h</div>
+    <div id = "hide">
+        <header>
+            <img class = "welcome"src="../images/welcome.png">
+        </header> 
+        <aside class="middle">
+        <h2>Credits.</h2>
+        <p>This webpage is made by Adhithya and Arjun Yuvaraj.</p>
+        <p>Thanks to</br> fontawesome.com for the pics on the siebar!</p>
+        </aside>
 
-    <!-- Top Bar -->
-    <div  class = "topBar">
+        <!-- Top Bar -->
+        <div  class = "topBar">
 
-        <button class = "topb">
-            <img src = "../images/house.png" class = "icon"/>
-            <p>Home</p>
-        </button>
-        <br/>
-        <button class = "topb">
-            <img src = "../images/newspaper.png" class = "icon">
-            <p>News</p>
-        </button>
-        <br/>
-        <button class = "topb">
-            <img src = "../images/game.png" class = "icon">
-            <p>Games</p>
-        </button>
-        <br/>
-        <button class = "topb">
-            <img src = "../images/question.png" class = "icon">
-            <p>Facts</p>
-        </button>
-        <br/>
-        <button class = "topb">
-            <img src = "../images/gear.png" class = "icon">
-            <p>Settings</p>
-        </button>
-        <br/>
-        <button class = "topb">
-            <span id = "profilePicture"><img src = "../images/profile-boy.png" class = "icon" /></span>
-            <p>Profile</p>
-        </button>
-    </div>
-    <main>
-        <article class = "hm">
-            <h2>Week 1's Wonder:</h1>
-            <h3>What is binary</h2>
-            <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.1 and 0. Computers use binary most the time. Binary is what your computers use. They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
-             A MB is 1024 KB and so on and so forth. Below is how you calculate binary to our number system.  </p>
-        <figure>
-            <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="100%">
-            <figcaption>Total:13</figcaption>
-        </figure>
-        <div class="test">
-            <h3>Quiz!</h3>
-            <form>
-                <p>How much is a MB?</p>
-                <br/>
-                <input type="number" id="bytes" /> KB
-                <p id="one"></p>
-                <br/>
-                <p>A GB is the next level from a MB. How many MB's make a GB?</p>
-                <br/>
-                <input type="number" id="bytes-2" /> GB
-                <p id="two"></p>
-                <br/> 
-                <p>What is 2<sup>2</sup> &times; 1? Write it in base ten.</p>
-                <br/>
-                <input type="number" id="ten">
-                <p id="three"> </p>
-                <br/>
-                <input type="button" value="submit" onclick="ifLoop()">
-            </form>  
+            <button class = "topb">
+                <img src = "../images/house.png" class = "icon"/>
+                <p>Home</p>
+            </button>
+            <br/>
+            <button class = "topb">
+                <img src = "../images/newspaper.png" class = "icon">
+                <p>News</p>
+            </button>
+            <br/>
+            <button class = "topb">
+                <img src = "../images/game.png" class = "icon">
+                <p>Games</p>
+            </button>
+            <br/>
+            <button class = "topb">
+                <img src = "../images/question.png" class = "icon">
+                <p>Facts</p>
+            </button>
+            <br/>
+            <button class = "topb">
+                <img src = "../images/gear.png" class = "icon">
+                <p>Settings</p>
+            </button>
+            <br/>
+            <button class = "topb">
+                <span id = "profilePicture"><img src = "../images/profile-boy.png" class = "icon" /></span>
+                <p>Profile</p>
+            </button>
         </div>
-    </article>
-        <article class="profilePicture">
-            <h2>Change Your Profile Picture!</h1>
-            <p>Click the image you want to change your profile picture</p>
-            <div class="chip">
-               <span class = "profile" onclick = "changeProPicture('boy');"> <img src="../images/profile-boy.png" alt="Person" width="96" height="96"> </span>
-               <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
-            </div>
+            <article class="profilePicture">
+                <h2>Change Your Profile Picture!</h1>
+                <p>Click the image you want to change your profile picture</p>
+                <div class="chip">
+                <span class = "profile" onclick = "changeProPicture('boy');"> <img src="../images/profile-boy.png" alt="Person" width="96" height="96"> </span>
+                <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
+                </div>
+            </article>
+        <script src = "../js/changeProPicture.js"></script>
+                <article class = "hm">
+                    <h2>Week 1's Wonder:</h1>
+                    <h3>What is binary</h2>
+                    <p>Binary is a number system like the one we use. We use base 10. Binary is base 2.1 and 0. Computers use binary most the time. Binary is what your computers use. They help store data. One digit is a bit, a character like a or 5 is a byte, 8 bits. A KB is 1024 bytes
+                    A MB is 1024 KB and sot  on and so forth. Below is how you calculate binary to our number system.  </p>
+                <figure>
+                    <img class="imgage" src="../images/binary.png" alt="A picture explaining binary" width="100%">
+                    <figcaption>Total:13</figcaption>
+                </figure>
+                <div class="test">
+                    <h3>Quiz!</h3>
+                    <form>
+                        <p>How much is a MB?</p>
+                        <br/>
+                        <input type="number" id="bytes" /> KB
+                        <p id="one"></p>
+                        <br/>
+                        <p>A GB is the next level from a MB. How many MB's make a GB?</p>
+                        <br/>
+                        <input type="number" id="bytes-2" /> GB
+                        <p id="two"></p>
+                        <br/> 
+                        <p>What is 2<sup>2</sup> &times; 1? Write it in base ten.</p>
+                        <br/>
+                        <input type="number" id="ten">
+                        <p id="three"> </p>
+                        <br/>
+                        <input type="button" value="submit" onclick="ifLoop()">
+                    </form>  
+                </div>
+            </article>
         </article>
 
-        <article class="theme">
-            <h2>Change The Theme Of The Web!</h1>
-            <p>Click each circle to change the theme of the webpage</p>
+        <article class="profilePicture">
+            <h2>Change The Theme Of This Webpage!</h1>
+            <p>Click the the white circle for a light Theme and the dark circle for a dark Theme</p>
             <div class="chip">
-               <span class = "dot black-dot" onclick = "changeTheme('dark');">x</span>
-               <span class = "dot white-dot" onclick = "changeTheme('light');">x</span>
+            <span class = "black-doot" onclick = "changeTheme('dark');"> </span>
+            <span class = "white-dot" onclick = "changeTheme('light');"></span>
             </div>
         </article>
-    </main>
-    <script src = "../js/changeProPicture.js"></script>
-    <script src = "../js/form.js"></script>
-    <script src = "../js/changeTheme.js"></script>
+        </main>
+        <script src="../js/form.js"></script>
+
+            <article class="theme">
+                <h2>Change The Theme Of The Web!</h1>
+                <p>Click each circle to change the theme of the webpage</p>
+                <div class="chip">
+                <span class = "dot black-dot" onclick = "changeTheme('dark');">x</span>
+                <span class = "dot white-dot" onclick = "changeTheme('light');">x</span>
+                </div>
+            </article>
+        </main>
+        <script src = "../js/changeProPicture.js"></script>
+        <script src = "../js/form.js"></script>
+        <script src = "../js/changeTheme.js"></script>
+    </div>
 </body>
 </html>
