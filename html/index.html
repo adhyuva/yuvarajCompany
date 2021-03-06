@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <div id="loader">h</div>
+    <!-- <div id="loader">h</div> -->
     <div id = "hide">
         <header>
             <img class = "welcome"src="../images/welcome.png">
@@ -50,18 +50,10 @@
             </button>
             <br/>
             <button class = "topb">
-                <span id = "profilePicture"><img src = "../images/profile-boy.png" class = "icon" /></span>
+                <span id = "profilePicture"><img src = "../images/profile.png" class = "icon" /></span>
                 <p>Profile</p>
             </button>
         </div>
-            <article class="profilePicture">
-                <h2>Change Your Profile Picture!</h1>
-                <p>Click the image you want to change your profile picture</p>
-                <div class="chip">
-                <span class = "profile" onclick = "changeProPicture('boy');"> <img src="../images/profile-boy.png" alt="Person" width="96" height="96"> </span>
-                <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
-                </div>
-            </article>
         <script src = "../js/changeProPicture.js"></script>
                 <article class = "hm">
                     <h2>Week 1's Wonder:</h1>
@@ -95,17 +87,15 @@
                 </div>
             </article>
         </article>
-
+        </main>
         <article class="profilePicture">
-            <h2>Change The Theme Of This Webpage!</h1>
-            <p>Click the the white circle for a light Theme and the dark circle for a dark Theme</p>
+            <h2>Change Your Profile Picture!</h1>
+            <p>Click the image you want to change your profile picture</p>
             <div class="chip">
-            <span class = "black-doot" onclick = "changeTheme('dark');"> </span>
-            <span class = "white-dot" onclick = "changeTheme('light');"></span>
+            <span class = "profile" onclick = "changeProPicture('boy');"> <img src="../images/profile-boy.png" alt="Person" width="96" height="96"> </span>
+            <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
             </div>
         </article>
-        </main>
-        <script src="../js/form.js"></script>
 
             <article class="theme">
                 <h2>Change The Theme Of The Web!</h1>
@@ -120,5 +110,6 @@
         <script src = "../js/form.js"></script>
         <script src = "../js/changeTheme.js"></script>
     </div>
+    <script src="../js/form.js"></script>
 </body>
 </html>
