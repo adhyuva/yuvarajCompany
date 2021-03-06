@@ -1,3 +1,7 @@
+body{
+    background-image: url("../images/background.png");
+}
+
 #loader {
     border: 16px solid gray;
     border-radius: 50%;
