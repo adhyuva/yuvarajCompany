@@ -33,13 +33,13 @@ function ifLoop () {
     }
     output.innerHTML = "Score:" + score + "/4";
     if (score == 4){
-        output.innerHTML += " <br/> Awesome! You know your facts! ";
+        output.innerHTML += " <br/> &#128293; Awesome! You know your facts! &#128293; ";
       }else if (score >= 2){
-        output.innerHTML += " <br/> Your familiar with binary.";
+        output.innerHTML += " <br/> &#128170; Your familiar with binary.&#128170;";
       }else if (question1==""&&question2==""&&question3==""){
-        output.innerHTML = " <br/> We can not give you a score because everything is blank.<br/> Please try again!";
+        output.innerHTML = " <br/> &#128533;We can not give you a score because everything is blank.&#128533;<br/> Please try again!";
       }else{
-        output.innerHTML += " <br/> You do not know binary. ";
+        output.innerHTML += " <br/>&#128218; You do not know binary. Study more! &#128218; ";
       }
 
 }
