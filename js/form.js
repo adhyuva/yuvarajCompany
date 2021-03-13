@@ -36,6 +36,8 @@ function ifLoop () {
         output.innerHTML += " <br/> Awesome! You know your facts! ";
       }else if (score >= 2){
         output.innerHTML += " <br/> Your familiar with binary.";
+      }else if (question1==""&&question2==""&&question3==""){
+        output.innerHTML = " <br/> We can not give you a score because everything is blank.<br/> Please try again!";
       }else{
         output.innerHTML += " <br/> You do not know binary. ";
       }
