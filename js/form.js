@@ -33,9 +33,9 @@ function ifLoop () {
     }
     output.innerHTML = "Score:" + score + "/4";
     if (score == 4){
-        output.innerHTML += " <br/> &#128293; Awesome! You know your facts! &#128293; ";
+        output.innerHTML += " <br/> &#128170; Awesome! You know your facts! &#128170; ";
       }else if (score >= 2){
-        output.innerHTML += " <br/> &#128170; Your familiar with binary.&#128170;";
+        output.innerHTML += " <br/> &#128077; Your familiar with binary.&#128077;";
       }else if (question1==""&&question2==""&&question3==""){
         output.innerHTML = " <br/> &#128533;We can not give you a score because everything is blank.&#128533;<br/> Please try again!";
       }else{

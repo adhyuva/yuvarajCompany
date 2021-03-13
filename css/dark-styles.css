@@ -13,6 +13,7 @@ body{
     color:black;
     border-radius:30px;
     z-index:1;
+    overflow-y: auto;
 }
 
 .hm{
@@ -26,6 +27,7 @@ body{
     color:black;
     border-radius:30px;
     z-index:1;
+    overflow-y: auto;
 }
 .welcome{
    color:rgb(0, 0, 255); 
@@ -52,6 +54,7 @@ h2,h3{
     border-bottom:3px solid lightblue;
     width:80%;
     margin:1% 10%;
+    overflow-y: auto;
 }
 .chip{
     display: block;
@@ -73,6 +76,7 @@ h2,h3{
     color:black;
     border-radius:30px;
     z-index:1;
+    overflow-y: auto;
 }
 
 .dot{
@@ -105,4 +109,5 @@ h2,h3{
     color:black;
     border-radius:30px;
     z-index:1;
+    overflow-y: auto;
 }
