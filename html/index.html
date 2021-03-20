@@ -11,7 +11,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="../images/yLogo.png" />
 </head>
 <body>
-    <!-- <div id="loader">h</div> -->
     <div id = "hide">
         <header>
             <img class = "welcome"src="../images/welcome.png">
@@ -76,13 +75,18 @@
                         <input type="number" id="ten">
                         <p id="two"> </p>
                         <br/>
+                        <p>Complete the Sentence.</p>
+                        <br/>
+                        Binary helps store <input id="data">
+                        <p id="four"></p>
+                        <br/>
                         
                         <p>Challenge: A GB is the next level from a MB. How many MB's make a GB?</p>
                         <br/>
                         <input type="number" id="bytes-2" /> GB
                         <p id="three"></p>
                         <br/> 
-                        <input type="button" value="submit" onclick="ifLoop()">
+                        <input type="button" value="submit" id="submit">
                     </form>  
                     <br/>
                     <div id="score"></div>
@@ -98,7 +102,6 @@
             <span class = "profile" onclick = "changeProPicture('girl');"> <img src="../images/profile-girl.png" alt="Person" width="96" height="96"> </span>
             </div>
         </article>
-    <script src = "../js/changeProPicture.js"></script>
             
         <article class="theme">
             <h2>Change The Theme Of The Web!</h1>
@@ -110,11 +113,14 @@
             </div>
         </article>
     </main>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
     <script src = "../js/changeProPicture.js"></script>
     <script src = "../js/form.js"></script>
     <script src = "../js/changeTheme.js"></script>
     <script src = "../js/sidebar.js"></script>
-    </div>
     <script src="../js/form.js"></script>
 </body>
 </html>
